@@ -1,26 +1,8 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link, graphql, useStaticQuery } from "gatsby"
-import headerImage from "../images/gatsby-icon.png"
+import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => {
-
-  const {site} = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  )
-
-  console.log(site)
-
   return (
     <header
       style={{
@@ -38,8 +20,7 @@ const Header = ({ siteTitle }) => {
           textDecoration: `none`,
         }}
       >
-        {/* {siteTitle} */}
-        <img src={headerImage} alt="headerImage" />
+        {siteTitle}
       </Link>
       <img
         alt="Gatsby logo"
