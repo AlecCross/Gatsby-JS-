@@ -2,6 +2,7 @@
 title: Греческий Салат
 category: greece
 url: greek-salad
+image: ../image/example.png
 ---
 
 # Греческий Салат

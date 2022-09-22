@@ -2,6 +2,7 @@
 title: Вечерние Афиньі
 category: greece
 url: night-athens
+image: ../image/example.png
 ---
 
 # Вечерние Афиньі
